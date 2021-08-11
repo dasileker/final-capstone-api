@@ -5,5 +5,4 @@ RSpec.describe 'Appointments', type: :request do
     get '/api/v1/users/1/appointments'
     expect(response).to have_http_status(:unauthorized)
   end
-
 end
